@@ -1,7 +1,126 @@
-* {
-    box-sizing: border-box;
+*,
+::after,
+*::before {
+  box-sizing: border-box;
 }
-
-body {
-    background: #000;
+body { 
+    margin: 90pt auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+p {
+  margin: auto;
+}
+.zag {
+  width: 360pt;
+  font-size: 21px;
+  line-height: 24pt;
+  margin-bottom: 36pt;
+}
+.par1{
+  width: 360pt;
+  font-size: 12pt;
+  line-height: 20pt;
+  margin-bottom: 52pt;
+  color: rgba(0, 0, 0, 0.4);
+}
+.par2{
+  width: 360pt;
+  font-size: 11pt;
+  line-height: 23pt;
+  margin-bottom: 90pt;}
+img {
+  display: block;
+  width: 1020pt;
+  min-height: 610pt;
+  margin: auto;
+  object-fit: cover;
+  margin-bottom: 90pt;
+}
+.podzag1 {
+  width: 360pt;
+  font-size: 17pt;
+  line-height: 19pt;
+  margin-bottom: 28pt;
+}
+.par3{
+  width: 360pt;
+  font-size: 11pt;
+  line-height: 23pt;
+  margin-bottom: 64pt;
+}
+.par4{
+  width: 360pt;
+  font-size: 11pt;
+  line-height: 23pt;
+  margin-bottom: 52pt;
+}
+.par5{
+  width: 360pt;
+  font-size: 11pt;
+  line-height: 23pt;
+  margin-bottom: 56pt;
+}
+.podzag2 {
+  width: 360pt;
+  font-size: 15pt;
+  line-height: 19pt;
+  margin-bottom: 28pt;
+}
+.par6{
+  width: 360pt;
+  font-size: 11pt;
+  line-height: 23pt;
+  margin-bottom: 52pt;
+}
+.blockquote {
+  width: 360pt;
+  margin: auto;
+  font-size: 11pt;
+  line-height: 23pt;
+  margin-bottom: 52pt;
+}
+.podzag3 {
+  width: 360pt;
+  font-size: 13pt;
+  line-height: 17pt;
+  margin-bottom: 28pt;
+}
+.par7{
+  width: 360pt;
+  font-size: 11pt;
+  margin-bottom: 52pt;
+}
+.ul {
+  width: 360pt;
+  font-size: 11pt;
+  margin: auto;
+  line-height: 23pt;
+  padding: 0px 0 52px 30pt;
+}
+.li {
+  margin-bottom: 40pt;
+}
+.blockquote2{    
+    width: 360pt;
+    margin: auto;
+    font-size: 11pt;
+    line-height: 23pt;
+    margin-bottom: 64pt;
+}
+.zag2{
+  width: 360pt;
+  font-size: 17pt;
+  margin-bottom: 56pt;  
+}
+.podzag4 {
+  width: 360pt;
+  font-size: 15pt;
+  margin-bottom: 28pt;
+}
+.par8 {
+    width: 360pt;
+    font-size: 11pt;
+    line-height: 23pt;
 }
